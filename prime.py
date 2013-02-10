@@ -22,9 +22,7 @@ def main():
   print 'Enter the the Prime number: '
   print prime_list(int(raw_input('> ')))
   
-  
-  
 if __name__ == '__main__':
   main()
-  print prime_lists()
+  #print prime_lists()
   #print prime_list(50)
