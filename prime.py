@@ -1,4 +1,4 @@
-#! /usr/div/env python
+#! /usr/bin/env python
 
 #Name: Mahmoud Ibrahim
 #UID:  U44784560
@@ -26,5 +26,5 @@ def main():
   
 if __name__ == '__main__':
   main()
-  print prime_lists()
+  #print prime_lists()
   #print prime_list(50)
