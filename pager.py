@@ -2,6 +2,10 @@
 
 'page.py --file access script, problem 9-4'
 
+#Name: Mahmoud Ibrahim
+#UID:  U44784560
+#Date: Feb 11, 2013
+
 import sys
 import fileinput
 
