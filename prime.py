@@ -1,4 +1,4 @@
-#! /usr/div/env python
+#! /usr/bin/env python
 
 #Name: Mahmoud Ibrahim
 #UID:  U44784560
