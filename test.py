@@ -1,5 +1,5 @@
 def trial_division(n):
-    """Return a list of the prime factors for a natural number."""
+    'Return a list of the prime factors for a natural number.'
     if n == 1: return [1]
     primes = prime_sieve(int(n**0.5) + 1)
     prime_factors = []
@@ -11,16 +11,13 @@ def trial_division(n):
             n //= p
     if n > 1: prime_factors.append(n)
  
-    return prime_factors
-    
+    return prime_factors  
     
 def main():
+ 'this is main'
  n = int(raw_input('> '))
- 
  prime = trial_division(n)
- 
  print n
- 
  
 if __name__ == '__main__':
   main()
